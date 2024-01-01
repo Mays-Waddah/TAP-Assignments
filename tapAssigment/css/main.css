@@ -6,7 +6,16 @@ i.fas, i.fa-solid {
 
 /* Base styles */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
+:root {
+  --main-color: #D1884F;
+  --accent-color: #008AAA;
+  --secondary-color: #3BBADB;
+}
+:root {
+  --main-color: #D1884F;
+  --accent-color: #008AAA;
+  --secondary-color: #3BBADB;
+}
 html {
   color: #333;
   font-size: 16px;
@@ -79,12 +88,11 @@ html {
 
 /* Styling for paragraphs */
 p {
-  margin-bottom: 1.5em;  /* Consistent spacing between paragraphs */
-  font-family: Arial, sans-serif;
+  font-family: inherit;  /* Inherit Poppins font from the body */
+  margin-bottom: 1.5em;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: bold;
-  font-style: italic;
+  /* Remove unnecessary bold and italic styles */
 }
 
 /* Images */
